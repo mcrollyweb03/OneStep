@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneStep University</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="c-header">
+        <nav>
+            <a href="main.html"><img src="image/logouni.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li class="active"><a href="main.html">ABOUT US</a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="history.html">History</a></li>
+                                <li><a href="MandV.html">Mission & Vision</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="main.html">COURES</a></li>
+                    <li><a href="main.html">CONTACT</a></li>
+                    <li><a href="acc.html">ACCOUNT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    </section>
+    <!-----------cte---------->
+    <section>
+        <div class="c-container">
+            <div class="c">
+                <h2>College of Criminology & Administration</h2>
+                <div class="c-image">
+                    <img src="image/crim.jpg">
+                </div>
+                <h5>CHED PROGRAMS POSSIBLE PROFESSION/ CAREER/ OCCUPATIONS</h5>
+                <p>Bachelor of Science in Internal Auditing (BSIA)</p>
+                <div class="c-row1">
+                    <li>
+                        <span>NBI agent</span>
+                    </li>
+                    <li>
+                        <span>Armed Forces</span>
+                    </li>
+                    <li>
+                        <span>Gaming sector security</span>
+                    </li>
+                    <li>
+                        <span>Jail Management</span>
+                    </li>
+                    <li>
+                        <span>Private investigator</span>
+                    </li>
+                    <li>
+                        <span>Transportation sector security</span>
+                    </li>
+                </div>
+                <div class="c-row2">
+                    <li>
+                        <span>Crime lab analyst</span>
+                    </li>
+                    <li>
+                        <span>Jail warden</span>
+                    </li>
+                    <li>
+                        <span>Policeman</span>
+                    </li>
+                    <li>
+                        <span>Security guard supervisor</span>
+                    </li>
+                    <li>
+                        <span>Private detectives</span>
+                    </li>
+                    <li>
+                        <span>Public policy advisor</span>
+                    </li>
+                    <li>
+                        <span>Airports & Ports industry</span>
+                    </li>
+                </div>
+                <div class="search">
+                    <h6>SEARCH<br></h2>
+                    <input class="search-box" type="text" value name="S" placeholder="Search . . . ">
+                    <input type="submit" class="search-sub" value="Go">
+                    <div class="search-course">
+                        <h6>FEATURED COURSES</h2>
+                        <li class="c-featured">
+                            <a href="chs.html">College of Health Science</a>
+                        </li>
+                        <li class="c-featured">
+                            <a href="cte.html">College of Teacher Education</a>
+                        </li>
+                        <li class="c-featured">
+                            <a href="enge.html">Collge of Engineering</a>
+                        </li>
+                        <li class="c-featured">
+                            <a href="cca.html">College of Criminology & Administration</a>
+                        </li>
+                        <li class="c-featured">
+                            <a href="cba.html">College of Business & Accountancy</a>
+                        </li>
+                        <li class="c-featured">
+                            <a href="ccs.html">College of Computer Studies</a>
+                        </li>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--------footer---------->
+    <section class="footer">
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br>
+        <h4></h4>
+        <p>Show me Your ways, LORD, teach me Your paths. Guide me in Your truth and teach me, for You are God my Savior, and my hope is in You all day long.</p>
+        <h4>Psalm 25:4-5</h4>
+        <div class="icons">
+            <a href="https://www.facebook.com/">
+            <i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/">
+            <i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/">
+            <i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/">
+            <i class="fa fa-linkedin"></i></a>
+        </div>
+            <p> <i class="fa fa-heart-o"></i> T</p>
+    </section>
+    
+    <!--------javascript for toggle menu---------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>

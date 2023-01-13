@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneStep University</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/logouni.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li class="active"><a href="">ABOUT US</a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="history.html">History</a></li>
+                                <li><a href="MandV.html">Mission & Vision</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="main.html">COURES</a></li>
+                    <li><a href="main.html" >CONTACT</a></li>
+                    <li><a href="acc.html">ACCOUNT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    
+        <!---------- mission and vision------->
+        <div class="missionandvision">
+            <div class="mv-container">
+                <div class="mv-row">
+                    <div class="mvform-container">
+                        <div class="mv-btn">
+                            <h1>MISSION</h1>
+                            <p>OneStep College's goal is to prepare future leaders and citizens for our society. Our dedication to the transformative
+                                <br>potential of a liberal and sciences education allows us to achieve this. Students go on a journey of intellectual 
+                                <br>transformation that starts in the classroom with exposure to new ideas, new methods of understanding, and new ways 
+                                <br>of knowing. The conditions for social transformation are formed and the intellectual transformation is deepened 
+                                <br>through a diverse living environment where students live with others who are studying various topics, who originate 
+                                <br>from different walks of life, and who have growing identities. We anticipate that students will use this to shape their 
+                                <br> lives by deciding how they want to use their skills and abilities, as well as by evaluating their values.
+                            </p>
+                        </div>
+                        <div class="mv-btn">
+                            <h1>VISION</h1>
+                            <p>The bar for residential liberal arts and sciences education is established by OneStep College. We have committed to 
+                                <br>establishing and maintaining the conditions necessary for every OneStep College student to take part in a 
+                                <br>transformative academic, social, and personal educational journey that is unmatched.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--------footer---------->
+    <section class="footer">
+        <h4></h4>
+        <p>Show me Your ways, LORD, teach me Your paths. Guide me in Your truth and teach me, for You are God my Savior, and my hope is in You all day long.</p>
+        <h4>Psalm 25:4-5</h4>
+        <div class="icons">
+            <a href="https://www.facebook.com/">
+            <i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/">
+            <i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/">
+            <i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/">
+            <i class="fa fa-linkedin"></i></a>
+        </div>
+            <p> <i class="fa fa-heart-o"></i> T</p>
+    </section>
+    
+
+    <!--------javascript for toggle menu---------->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>

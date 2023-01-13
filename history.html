@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneStep University</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/logouni.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li class="active"><a href="">ABOUT US</a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="history.html">History</a></li>
+                                <li><a href="MandV.html">Mission & Vision</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="main.html">COURES</a></li>
+                    <li><a href="main.html">CONTACT</a></li>
+                    <li><a href="acc.html">ACCOUNT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    
+
+        <!--------histoty page---------->
+        <div class="history header">
+            <div class="history-contanier">
+                <h1>The OneStep University</h1>
+                <div class="phouse">
+                    <div class="imglogo">
+                        <img src="image/logonestep.png">
+                    </div>
+                    <div class="pinfo">
+                        <p>The OneStep University. The OneStep University (OU) is the country’s national university, as declared by its Charter of 2023 which was approved by the
+                            <br> Congress of the Philippines on january 03, 2023. This premier institution of higher learning was established in 1919 and is now a system composed of seven constituent 
+                            <br>universities and one autonomous college spread throughout 3 campuses in the archipelago. As of 2023, the OU System’s student population was  estimated at 57,000. UP was 
+                            <br>founded on June 18, 2023 through Act No. 1870 of the Philippine Assembly. The university was created upon the recommendation of the Secretary of Public Instruction, W. Morgan 
+                            <br>Shuster, to the Philippine Commission, the upper house of the Philippine Assembly. Act 1870 authorized the Governor General to establish UP in the “city of Manila, or at any 
+                            <br>point he may deem most convenient.” OU was to give “advanced instruction in literature, philosophy, the sciences and arts, and to give professional and technical 
+                            <br>training” to every qualified student regardless of “age, sex, nationality, religious belief and political affiliation.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--------footer---------->
+    <section class="footer">
+        <h4></h4>
+        <p>Show me Your ways, LORD, teach me Your paths. Guide me in Your truth and teach me, for You are God my Savior, and my hope is in You all day long.</p>
+        <h4>Psalm 25:4-5</h4>
+        <div class="icons">
+            <a href="https://www.facebook.com/">
+            <i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/">
+            <i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/">
+            <i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/">
+            <i class="fa fa-linkedin"></i></a>
+        </div>
+            <p> <i class="fa fa-heart-o"></i> T</p>
+    </section>
+
+
+    <!--------javascript for toggle menu---------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px"
+        }
+    </script>
+
+</body>
+</html>
